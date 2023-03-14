@@ -1,0 +1,328 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Fraunces', serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Fraunces', serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+:root{
+    --marginLeftright: 70px;
+}
+@media(max-width:414px)
+{
+   body header {
+       margin:21px 47px;
+    }
+   body header ul li{
+        margin-left: 13px ;
+    }
+ header .imag1{
+    width: 100px;
+ }
+ .sec1 .text1{
+    text-align: center;
+     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ main .sec1 {
+    flex-wrap: wrap-reverse;
+}
+main .sec1 .text1 .input{
+    flex-wrap: wrap;
+}
+  main .sec1 .text1 .input input{
+    margin-bottom: 20px;
+    width: 270px;
+ }
+main  .sec1 .text1 .input button{
+    width: 100%;
+ }
+  main .sec1  .image2{
+    width: 300px;
+    margin-top: 40px;
+ }
+ main .sec2 {
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ main .curve
+ {
+    background-image: url(images/bg-curve-mobile.svg);
+    height: 100%;
+    width: 100%;
+ }
+  body main .sec2 .text2 .paragraph{
+ width: 300px;
+ }
+ 
+ main .sec2  .svg2{
+    width: 280px;
+    margin-top: 40px;
+ }
+  
+  body main .sec3 {
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
+ body footer {
+ flex-wrap: wrap;
+ display: flex;
+  }
+  body footer .columns{
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-left: 40px;
+  }
+  body footer .columns .col4{
+    
+
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 10px;
+  }
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 70px;
+}
+header ul{
+    list-style: none;
+    
+}
+header ul li{
+    display: inline;
+    margin-left: 60px;
+}
+main .sec1 {
+    display: flex;
+    margin-top: 60px;
+    margin-left: var(--marginLeftright);
+    margin-right: var(--marginLeftright);
+}
+main .sec1 img{
+    width: 600px;
+}
+main .sec1 .text1{
+ margin-top: 60px;
+ 
+}
+main .sec1 .text1 .input{
+    display: flex;
+}
+main .sec1 .text1 h1{
+    margin-bottom: 15px;
+     font-size: xx-large;
+     line-height: 1.5;
+}
+main .sec1 .text1 p{
+    line-height: 1.5;
+}
+main .sec1 .text1 .input input{
+ padding-top: 7px ;
+ padding-bottom: 7px;
+ padding-right: 50px;
+ padding-left: 10px;
+ margin-right: 10px;
+ 
+}
+main .sec1 .text1 .input{
+    margin-top: 30px;
+}
+
+main .sec1 .text1 .input button{
+    border-style: none;
+    padding: 5px 50px;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border-radius: 2px;
+}
+
+main .sec2 {
+    margin-top: 100px;
+    
+    
+}
+main .sec2 {
+    display: flex;
+    
+}
+main .curve{
+    background-image:url(images/bg-curve-desktop.svg) ;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background-repeat: no-repeat ;
+    margin-top: 86px;
+    
+}
+main .sec2 {
+    margin-top: 200px;
+   background-color:hsl(0deg 0% 96% / 59%); 
+   position: relative;
+    padding: 100px 0;
+}
+main .sec2 .text2 h2{
+    margin-left: 70px;
+    margin-bottom: 30px;
+    font-size: xx-large;
+
+    
+}
+
+main .sec2  .svg2{
+    height:400px ;
+    margin-left: var(--marginLeftright);
+}
+main .sec2  .text2>p{
+    margin-bottom: 20px;
+    margin-left: var(--marginLeftright);
+}
+
+main .sec2  .svg2{
+    margin-right: var(--marginLeftright);
+    
+}
+
+main .sec2  .text2 .link a{
+    margin-top: 60px;
+    margin-left: var(--marginLeftright);
+    color:  hsl(170, 45%, 43%);
+    text-decoration-line: none;
+    
+    
+}
+
+  
+
+
+main .sec2  .text2 .paragraph{
+    background-color: white;
+    margin-top: 40px;
+    width: 370px;
+    
+    margin-left: var(--marginLeftright);
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px #888;
+}
+main .sec2  .text2 .paragraph>p{
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+main .sec2 .text2 .paragraph span{
+ display: flex;
+ margin-top: 30px;
+}
+
+main .sec2 .text2 .paragraph span img{
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 10px;
+    
+}
+main .sec2 .text2 .paragraph span .info{
+    margin-top: 10px;
+}
+main .sec2 .text2 .paragraph span p{
+    font-size: x-small;
+
+}
+main .sec3 {
+    background-color: hsl(238, 22%, 44%);
+    padding: 100px 70px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+   
+}
+main .sec3 .text3{
+   
+    width: 500px;
+}
+  main .sec3  .form2 .email{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 30px;
+    padding-left: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+main .sec3  .form2 button{
+    border-style: none;
+    background-color: hsl(224, 93%, 62%);
+    color: white;
+    padding: 10px 30px;
+
+}
+main .sec3 .text3 h3{
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+main .sec3 .text3 p{
+    line-height: 1.5;
+}
+footer{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    
+}
+footer .columns{
+    padding: 40px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+footer .columns .col1 svg{
+    margin-bottom: 15px;
+}
+footer .columns p {
+ margin-bottom: 20px;
+}
+footer .columns .col1 .phone{
+   display: flex; 
+}
+
+footer .columns .col1 .phone img{
+    margin-right: 20px;
+    height: 20px;
+}
+footer .columns .col1 .email{
+    display: flex;
+}
+footer .columns .col1 .email img{
+    margin-right: 20px;
+    height: 20px;
+}
